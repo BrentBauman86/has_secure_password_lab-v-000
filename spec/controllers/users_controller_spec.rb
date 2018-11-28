@@ -1,10 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe UsersController, type: :controller do
-
-  let(:steven) {{name: 'Steven',
-            password: 'un1verse',
-            password_confirmation: 'un1verse'}}
+  # 
+  # let(:steven) {{name: 'Steven',
+  #           password: 'un1verse',
+  #           password_confirmation: 'un1verse'}}
 
   # describe 'create' do
     # it "creates a new user" do
