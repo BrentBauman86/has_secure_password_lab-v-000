@@ -6,11 +6,11 @@ RSpec.describe UsersController, type: :controller do
             password: 'un1verse',
             password_confirmation: 'un1verse'}}
 
-  describe 'create' do
+  # describe 'create' do
     # it "creates a new user" do
       # post :create, user: steven
       # expect(User.last.name).to eq('Steven')
-    end
+    # end
 
     it "logs you in" do
       post :create, user: steven
